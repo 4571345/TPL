@@ -1,7 +1,22 @@
-# xpl
-Excel Programming Language
+# TPL Reference
+## Data types
 
-Scripting language that automates Excel. Cross between Tcl and OCaml. 
+Simple
+  1
+  'stringwithoutspaces
+  "string with spaces"
+  3.1415
+  2016.07.11
+  2016.07.11_23.59.30
 
-Unit of execution is line:
-  EXPR|EXPR
+Lists
+  1 2 3
+  'a 'b 11 22 33 2016.07.21
+
+## Program structure
+
+program=expression;experssion<new line>expression;...
+
+expression=token token token ...
+
+token=proc | 
